@@ -32,6 +32,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'rhysd/vim-clang-format'
 Plugin 'fatih/vim-go'
 Plugin 'easymotion/vim-easymotion'
+Plugin 'crusoexia/vim-dream'
 call vundle#end()            " required
 filetype plugin indent on    " required
 let g:ctrlp_open_new_file = 't'
@@ -44,3 +45,4 @@ ca tbc TagbarClose
 let g:auto_ctags = 1
 let g:tagbar_width = 80
 
+colorscheme dream
