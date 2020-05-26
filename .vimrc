@@ -33,6 +33,7 @@ Plugin 'rhysd/vim-clang-format'
 Plugin 'fatih/vim-go'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'crusoexia/vim-dream'
+Plugin 'morhetz/gruvbox'
 call vundle#end()            " required
 filetype plugin indent on    " required
 let g:ctrlp_open_new_file = 't'
@@ -40,9 +41,13 @@ let g:clang_format#command = "clang-format-9"
 autocmd FileType c,cpp,objc vnoremap <buffer><Leader>cf :ClangFormat<CR>
 let g:NERDCompactSexyComs = 1
 let g:NERDCustomDelimiters = { 'c': { 'left': '/*','right': '*/' } }
+
 ca tbt TagbarToggle
 ca tbc TagbarClose
+
 let g:auto_ctags = 1
 let g:tagbar_width = 80
 
-colorscheme dream
+"colorscheme dream
+colorscheme gruvbox
+set background=dark
