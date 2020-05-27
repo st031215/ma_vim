@@ -34,6 +34,8 @@ Plugin 'fatih/vim-go'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'crusoexia/vim-dream'
 Plugin 'morhetz/gruvbox'
+Plugin 'vim-scripts/gtags.vim'
+Plugin 'ycm-core/YouCompleteMe'
 call vundle#end()            " required
 filetype plugin indent on    " required
 let g:ctrlp_open_new_file = 't'
