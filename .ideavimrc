@@ -1,0 +1,10 @@
+set incsearch
+set hlsearch
+set ignorecase
+set showmatch
+set updatetime=100
+
+set nu! rnu!
+set cursorline
+
+set easymotion
