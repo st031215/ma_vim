@@ -106,3 +106,4 @@ mem()
 alias crl="conan remove --locks"
 alias cma="cd ~/Documents/CommApps"
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+bindkey '^l' autosuggest-accept
